@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kombo</title>
+    <link rel="stylesheet" href="obecne.css">
+</head>
+<body>
+    <nav class="vsude">
+        <img src="funguje.PNG" alt="logo" width="3%" height="3%">
+        <a href="rocnikov_projekt.html">Domů</a>
+        <a href="vyroba.html">Vznik</a> 
+        <a href="video.html">Video</a> 
+        <a href="kontakty.html">Umělci</a> 
+    </nav>
+    <div class="tužka ">
+        <br>
+        <h2> Samotný nápad</h2>
+        <p>Tento projekt mě napadl jelikož jsem chtěl nějaké malé lehké přenosné kombo které je hlavně na baterky s kvalitními hloubkami ,
+            když jsem se ale podíval na internet na cenu tak se mi nechtělo dávat 800 kč za jen 5W kombo , takže jsem se rozhodl že si vytvořím vlastní.  Postup: Nejprve jsem projížděl internet jestli nenajdu nějaké schéma ,
+            naštěstí jsem našel jednoduché schéma které využívá  operační zesilovač LM386N , který měl ale velké zkreslení , takže k němu jsou ještě připojeny 3 potenciometry ,
+            na zvuk , zkreslení a hloubky (nízké frekvence) , ale z toho schématu byl výstupný výkon ani ne 1 W ,
+            takže na radu jednoho spolužáka jsem pořídil na výstup ještě JFET tranzistor který dokáže zvýšit výkon asi až na 18 W zhruba , ale to už by mi 9V baterie neujela ,
+            takže jsem ještě začal řešit jakej zdroj, přemýšlel jsem že bych dal třeba 4 baterie do série ale to mi přišlo moc náročný ,
+            takže jsem se rozhodl že použiji jen 2 baterie Li-on paralelně , takže mají jen 3.7 V ale velkou kapacitu a abych dostal aspoň do 15 V napětí jelikož LM368N může
+            mít vstupní napětí od 5-15V tak jsem pořídil ještě step-up který který může vydávat až 70W.
+            Tohle byl postup za mě as té lehčí části, jelikož poté mě čekalo modelování ve Fusion 360 a následný tisk komba na 3D tiskárně  </p>
+    </div>
+    <div class="hodiny">
+        <img src="obrazek pro vyrobu.jpg" alt="test" width="500px" height="500px">
+    </div>
+    <div class="pero ">
+        <h2> Postup </h2>
+        <p> Mé první dojmy byly docela smíšené, jelikož jsem mít něco takové praktické a navíc jsem věděl že bych to hojně využíval , a na víc by to bylo originální jelikož neznám žádné kombo které by se dalo nabjet 
+            které se nabíjí kabelem USB C a zárověň by se dali klidně baterie vyměnit , ale zároveň jsem nevěděl jak to všechno stihnu a hlavně jsem měl velký strach z následného modelování samotného aparátu. Nakonec modelování bylo docela těžké ale 
+            nejvíce mě překvapilo samotné zapojení obvodu , jelikož mi trvalo asi minimálně 7 hodiny celé zapojení, trvalo by mi asi jen 30 minut ale neustále problémy ať už moje chyba v zapojení nebo poté jsem zjistil že proč mi že mi to nefunguje
+            k vůli špatnému zesilovači , který měl výrobní chybu, napájení bylo propojeno s uzeměním , naštěstí jsem měl ale ještě jedno hradlo , ale celkově mě to už ani nebavilo , jelikož to co mělo fungovat nefungovalo a co ne tak fungovalo 
+            . Ani nevím jestli vůbec projekt stihnu dodělat , jelikož když by to už mělo spárvně fungovat , tak mi asi nějak došlo že signál z baskytary bude moc slabý a ještě ho budu muset taky zesílit . A to jsem byl teprve u zapojování obvodu na nepájivé pole
+            takže nevím kdy to mám stihnou když už mi zbývají jen 3 dny , a zbývá mi plakát video a hlavně funkčnost celého kombaa a jeho následný tisk . Model naštěstí už mám ale i tak nevím jestli všechno stihnu udělat. Ale ohldeně modelování , samotný model 
+            aparátu mi převkapivě šel rychle , poté i výřezy pro potenciometry , ale pak mi došlo jak budu moc to kombo otevřít a kdyžtak tam něco vyměnit , třeba baterky, takže jsem musel modelovat ze spodu komba
+            krytku. A ještě jsem málem zapomněl na modelování díry pro USB C. Na stránce jsem strávil několik hodin , a to převážně googlení co jaké slovo dělá a jak pracovat s CSS stylama , ale nějak to šlo udělat , poté jsem se pustil na logo a plakát ,
+             to taky šlo celkem rychle, ale pak když už konečně došli součástky a já měl taky 5 dní na to abych to vyzkoušel zapojení na nepájivém poli a potom následné pájení. Myslel jsem si že třeba za 1 den to na pohodu zapojím na nepájivém poli a bude mi to fungovat ,
+              ale velmi jsem se pletl , na to pole jsem to zhruba zapojoval 3 dny . A když už to nějak fungovalo , tak se objevil nový problém a už jsem moc neměl čas na řešení tohoto problému , zjistil jsem při zapojení že signál z baskytary je příliš slabý aby něco dělal,
+               takže bych ještě musel zvlášť zesílit signál z baskytary. Tak jsem mezitím modeloval kombo které jsem nakonec naštěstí vytiskl z materiálu PETG ve škole. Takže bohužel jsem ještě kombo nedostavěl a možná mi to ještě nějaký čas potrvá ale plánuju se teďka nad tím zajímat
+                 a třeba bych ho ještě nějka vylepšil ať už aby kombo nešustilo nebo lepší zesílení či silnější
+ 
+        </p>
+     </div>
+     <div class="obrazky"> 
+            <div class="flex-child magenta">
+             <img src="schema.jpg" alt="schema" width="93%" height="90%">   
+            </div>
+            <div class="flex-child green">
+              <img src="tabulka obrázek.PNG" alt="graf" width="90%" height="90%" >
+            </div>
+        </div>
+    <footer>
+        <h1> Kontakty a sociální sítě</h1>
+        <a href="https://www.google.com/intl/cs/gmail/about/"> Email</a>
+        <a href="https://www.instagram.com/"> Instagram</a>
+        <a href="https://github.com/"> Github</a>
+        <a href="https://twitter.com/?lang=cs"> Twitter</a>
+    </footer>
+</body>
+</html>
